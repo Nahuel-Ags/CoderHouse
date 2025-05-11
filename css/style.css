@@ -5,104 +5,110 @@
     font-family: "Poppins", sans-serif;
 
 }
-footer{
-margin-top: 50px;
-background-color: gray;
-}
-.titulo-principal{
-    display: flex;
-   justify-content: center;
-   margin:50px 0px;
-   color: black;
-}
-.principal{
-    grid-area: principal;
-}
-.principal h3{
-    display: flex;
-    justify-content: center;
-    font-size: 24px;
-}
-.contenedor_boton{
-    display: flex;
-    justify-content: center;
-    grid-area:boton;
-}
-.contenedor_boton button{
-    width: 100px;
-    height: 50px;
-    background-color: gray;
-    border-color: black;
-}
-header{
-    background-color: gray;
-    display: flex;
+.navbar{
+    font-size: 22px;
 }
 .logo{
     border-radius: 50px;
     margin: 15px;
     width: 80px;
     height: 80px;
-    display: flex;
 }
-.menu{
+.titulo-principal{
     display: flex;
-    justify-content: flex-startw;
-}
-.menu ul{
-    display: flex;
-}
-.menu li{
-    display: flex;
-    padding: 15px;
-    margin: 30px;
-}
-.menu a{
-    text-decoration: none;
-    list-style: none; 
-    color:  white;
+    justify-content: center;
+    margin: 50px;
+    color: black;
 }
 .Mifoto{
     margin-left: 50px;
     margin-top: 15px;
     width: 600px;
     height: 400px;
-    grid-area: foto;
 }
-.sobre_mi{
-    margin-top: 50px;
-    font-size: 18px;
-    width: 90%;
-    height: 90%;
+.contenedor_boton{
     display: flex;
     justify-content: center;
-    grid-area: texto;
-
 }
-.grid-container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 100px;
-    grid-template-areas: 
-    "principal texto texto"
-    "boton boton boton" 
-    ;
+.contenedor_boton button{
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: rgb(115, 115, 115);
+    background-color: gray;
+}
+.boton-contacto:hover{
+    background-color: white;
 }
 
-.logo{
-    width: 80px;
-    height: 80px;
+
+.habilidades{
     display: flex;
-    justify-content: start;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    background-color: gray;
 }
-
-
-
-
-
-.form{
+.habilidades div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 90px;
+    margin-top: 10px;
+    height: 150px;
+    border-radius: 50px;
+}
+.habilidades h2{
+    color:white;
+    font-size: 42px;
+}
+.foot{
+    display: flex;
+    justify-content:space-around;
+    align-items: end;
+    height: 300px;
+    margin-bottom: 50px;
+}
+.redesfoot{
     display: flex;
     flex-direction: column;
-    width: 400px;
-    margin: 30px 30px ;
+    justify-content: end;
 }
+.logo-footer{
+    border-radius: 50px;
+    margin: 15px;
+    width: 100px;
+    height: 100px;
+}
+.allfoot{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.carruzel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 1000px;
+}
+
+.form-contacto{
+    width: 500px;
+}  
+.redes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.redes ul li{
+    margin: 30px;
+}
+
