@@ -5,20 +5,29 @@
     font-family: "Poppins", sans-serif;
 
 }
+body {
+    font-size: 16px;
+  }
 .navbar{
     font-size: 22px;
+}
+.custom-navbar{
+    background-color: gray;
+}
+.custom-navbar .nav-link {
+    color:white
+}
+.custom-navbar .nav-link:hover{
+    color: rgb(190, 190, 190);
+}
+.custom-navbar .nav-link.active{
+    color: rgb(190, 190, 190);
 }
 .logo{
     border-radius: 50px;
     margin: 15px;
     width: 80px;
     height: 80px;
-}
-.titulo-principal{
-    display: flex;
-    justify-content: center;
-    margin: 50px;
-    color: black;
 }
 .Mifoto{
     margin-left: 50px;
@@ -99,8 +108,11 @@
     height: 1000px;
 }
 
+
+
 .form-contacto{
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
 }  
 .redes{
     display: flex;
@@ -111,4 +123,3 @@
 .redes ul li{
     margin: 30px;
 }
-
