@@ -1,0 +1,17 @@
+@use 'variables' as *;
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $fuente-principal;
+    background-color: $secondary-color;
+    font-size: 18px;
+}
+h2{
+    font-size: 42px;
+}
+a{
+    text-decoration: none;
+    color: $light-color
+}

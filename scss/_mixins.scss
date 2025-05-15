@@ -1,0 +1,36 @@
+@use 'variables' as *;
+
+@mixin flex-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+@mixin contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $primary-color;
+    margin: 90px;
+    margin-top: 50px;
+    height: 150px;
+    border-radius: 50px;
+    color: $light-color;
+    font-size: 24px;
+}
+
+@mixin button-style{
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    border-style: solid;
+    color: $terciary-color;
+    border-color: $light-color;
+    background-color: $light-color;
+    cursor: pointer;
+    
+    &:hover{
+        background-color: $secondary-color;
+    }
+}
